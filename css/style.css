@@ -172,6 +172,11 @@ img{
 	background-color: #000;
 }
 
+h1 {
+	font-family: "Akzi",sans-serif;
+	font-size: 50px;
+}
+
 .private__title {
 	font-family: "Akzi",sans-serif;
 	font-size: 50px;
@@ -289,3 +294,35 @@ img{
 	font-size: 15px;
 	text-decoration: underline;
 }
+
+/*STOP-OVERMENU============================================================*/
+/*START-CHOOSE============================================================*/
+
+.choose {
+
+}
+.choose__inner {
+	display: flex;
+}
+.choose-content {
+	background-color: #000;
+	flex: 0 1 50%;
+	display: flex;
+	padding-right: 60px;
+	flex-direction: column;
+	align-items: flex-end;
+  justify-content: center;
+}
+
+.choose-wrap {
+	
+}
+
+h1.choose-content__title {
+	color: #fff;
+}
+
+.choose-img {
+	flex: 0 1 50%;
+}
+.choose-img__img {}
