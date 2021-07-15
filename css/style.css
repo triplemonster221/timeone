@@ -150,7 +150,7 @@ textarea {
 }
 
 /*STOP-HEADER==========================================================================================*/
-/*STOP-PRIVATE===========================================================================================*/
+/*START-PRIVATE===========================================================================================*/
 .private {}
 
 .private__inner {
@@ -221,4 +221,71 @@ img{
 .private-btn__btn_nocolor:hover {
 	background-color: #fff;
 	color: #000;
+}
+
+/*STORT-PRIVATE=========================================================================*/
+/*START-OVERMENU=========================================================================*/
+
+.overmenu {
+	padding: 50px 0 80px;
+}
+.overmenu__inner {}
+
+.overmenu-top {
+	height: 25px;
+	background-color: #000;
+}
+
+.overmenu__bottom {
+	display: flex;
+}
+
+.overmenu-item {
+	flex: 1 1 220px;
+	padding-bottom: 10px;	
+	display: flex;	
+	flex-direction: column;
+}
+
+.overmenu-item-img {
+	width: 100%;
+}
+
+.overmenu-item__content {
+	padding: 19px 9px 0 0;
+	height: 100%;	
+	display: flex;	
+	flex-direction: column;	
+}
+
+.overmenu-item__content-title {
+	font-size: 25px;
+	letter-spacing: 0.07em;
+	margin-bottom: 25px;		
+}
+
+.overmenu-item__content-text {
+	font-size: 15px;
+	line-height: 25px;	
+	margin-bottom: 20px;
+	flex: 1 1 auto;
+}
+
+.overmenu-item__content-but {
+	color: #fff;
+	background-color: #000;
+	margin-bottom: 26px;
+	transition: all .3s ease;	
+}
+
+.overmenu-item__content-but:hover {
+	background-color: #999;
+}
+
+.overmenu-item__content-menu {
+	font-family: 'Bebas',sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;		
+	font-size: 15px;
+	text-decoration: underline;
 }
