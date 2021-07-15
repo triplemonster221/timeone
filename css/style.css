@@ -42,16 +42,19 @@ a {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	
+	font-family: "Akzi",sans-serif;
+	text-transform: uppercase;
+	margin: 0;
 }
 
 h2 {
 
 }
 
+button,
 input,
 textarea {
-	font-family: inherit;
+	  font-family: "BebasNeue", sans-serif;
 }
 
 .container {
@@ -60,11 +63,11 @@ textarea {
 	margin: 0 auto;
 }
 
-/*HEADER=============================================================*/
+/*START-HEADER====================================================================================*/
 
 .header {
-	height: 600px;
 	padding-top: 30px;
+	padding-bottom: 35px;
 }
 
 /*header_top==============================*/
@@ -146,3 +149,76 @@ textarea {
 	letter-spacing: 0.5em;
 }
 
+/*STOP-HEADER==========================================================================================*/
+/*STOP-PRIVATE===========================================================================================*/
+.private {}
+
+.private__inner {
+	display: flex;
+}
+
+.private__img {
+	flex: 1 1 50%;
+}
+
+img{
+	width: 100%;
+}
+
+.private__content {
+	flex: 1 1 50%;
+	padding: 75px 10px 50px 55px;
+	color: #FFF;
+	background-color: #000;
+}
+
+.private__title {
+	font-family: "Akzi",sans-serif;
+	font-size: 50px;
+	width: 218px;
+	margin-bottom: 14px;
+}
+
+.private-text {
+	font-size: 15px;
+	margin-bottom: 12px;
+	max-width: 315px;
+	width: 100%;
+	line-height: 25px;
+}
+
+.private-btn {
+	display: flex;
+}
+
+.private-btn__btn + .private-btn__btn {
+	margin-left: 4px;
+}
+
+.private-btn__btn {
+	color: #000;
+	background-color: #fff;
+}
+
+.btn {
+	display: block;
+	width: 156px;
+	text-align: center;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	font-size: 15px;
+	font-weight: 600;
+	border: none;
+	cursor : pointer;
+}
+
+.private-btn__btn_nocolor {
+	background-color: transparent;
+	color: #fff;
+	transition: all .3s ease;
+}
+
+.private-btn__btn_nocolor:hover {
+	background-color: #fff;
+	color: #000;
+}
